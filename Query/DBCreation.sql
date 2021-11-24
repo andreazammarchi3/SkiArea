@@ -3,7 +3,7 @@
 -- *--------------------------------------------
 -- * DB-MAIN version: 11.0.2              
 -- * Generator date: Sep 14 2021              
--- * Generation date: Wed Nov 24 14:44:32 2021 
+-- * Generation date: Wed Nov 24 14:57:11 2021 
 -- * LUN file: C:\Users\azamm\Desktop\repos\SkiArea\Design\SkiArea.lun 
 -- * Schema: SkiArea/Logico 
 -- ********************************************* 
@@ -70,7 +70,7 @@ create table PERCORSO (
 create table PISTA (
      IDPista char(16) not null,
      NomePista char(16) not null,
-     Difficoltà numeric(16) not null,
+     Difficolta numeric(16) not null,
      Lunghezza numeric(16) not null,
      Arrivo char(16) not null,
      Partenza char(16) not null,
